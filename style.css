@@ -176,3 +176,11 @@ p{
 .ac, .rf, .pt, .mi, .ca, .tr{
     margin-bottom: 14px;
 }
+
+/* Items in a Carousel form */
+.carousel-body{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    overflow:scroll;
+}
