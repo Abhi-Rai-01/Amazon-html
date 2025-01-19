@@ -178,9 +178,26 @@ p{
 }
 
 /* Items in a Carousel form */
+.carousel-items{
+    margin: 10px;
+}
 .carousel-body{
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
-    overflow:scroll;
+    overflow:auto;
+    margin-left: 1rem;
+}
+.carousel-header{
+    padding: 15px;
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding-bottom: unset;
+    font-weight: bold;
+}
+.carousel-body img{
+    margin-right: 2rem;
+}
+.carousel{
+    margin-top: 20px;
+    background-color: whitesmoke;
 }
